@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="48 56 204 258">
+  <defs>
+    <radialGradient id="g-hex-left" cx="38%" cy="38%" r="65%" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#98CAB9"/>
+      <stop offset="100%" stop-color="#78AF9F"/>
+    </radialGradient>
+    <radialGradient id="g-hex-right" cx="62%" cy="38%" r="65%" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#9BBFB3"/>
+      <stop offset="100%" stop-color="#7EA391"/>
+    </radialGradient>
+    <radialGradient id="g-hex-olive" cx="50%" cy="38%" r="65%" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#8C9D5C"/>
+      <stop offset="100%" stop-color="#75844D"/>
+    </radialGradient>
+    <radialGradient id="g-cube-top" cx="50%" cy="50%" r="70%" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#93C0B2"/>
+      <stop offset="100%" stop-color="#7BA99A"/>
+    </radialGradient>
+    <filter id="shadow-shape" x="-18%" y="-18%" width="136%" height="136%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2.5"/>
+      <feOffset dx="0" dy="2.5" result="blur"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.22"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="shadow-light" x="-18%" y="-18%" width="136%" height="136%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="0" dy="2" result="blur"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.14"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- LAYER 1 (BACK): Hex-Left cx=105 cy=175 R=55 -->
+  <polygon
+    points="105,120 152.63,147.5 152.63,202.5 105,230 57.37,202.5 57.37,147.5"
+    fill="url(#g-hex-left)"/>
+
+  <!-- LAYER 1 (BACK): Hex-Right cx=195 cy=175 R=55 -->
+  <polygon
+    points="195,120 242.63,147.5 242.63,202.5 195,230 147.37,202.5 147.37,147.5"
+    fill="url(#g-hex-right)"/>
+
+  <!-- LAYER 2 (MIDDLE): Hex-Olive cx=150 cy=250 R=55 -->
+  <polygon
+    points="150,195 197.63,222.5 197.63,277.5 150,305 102.37,277.5 102.37,222.5"
+    fill="url(#g-hex-olive)"
+    filter="url(#shadow-light)"/>
+
+  <!-- LAYER 3 (FRONT): 3D Cube — center 150,95 edge=63 -->
+  <g filter="url(#shadow-shape)">
+    <!-- Top face (rhombus) -->
+    <polygon
+      points="150,63.5 204.56,95 150,126.5 95.44,95"
+      fill="url(#g-cube-top)"/>
+    <!-- Left face -->
+    <polygon
+      points="95.44,95 150,126.5 150,189.5 95.44,158"
+      fill="#6E9086"/>
+    <!-- Right face -->
+    <polygon
+      points="150,126.5 204.56,95 204.56,158 150,189.5"
+      fill="#5D7B72"/>
+    <!-- Edge highlight — top face top-left edge -->
+    <line x1="150" y1="63.5" x2="95.44" y2="95" stroke="#A8CAC0" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
+    <!-- Edge highlight — top face top-right edge -->
+    <line x1="150" y1="63.5" x2="204.56" y2="95" stroke="#A8CAC0" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
+  </g>
+</svg>
