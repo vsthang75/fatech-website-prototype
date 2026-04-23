@@ -228,7 +228,7 @@ p:last-child { margin-bottom: 0; }
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 84px;
+  height: 124px;
 }
 
 .navbar-logo {
@@ -239,7 +239,7 @@ p:last-child { margin-bottom: 0; }
 }
 
 .navbar-logo .logo-img {
-  height: 72px;
+  height: 108px;
   width: auto;
   flex-shrink: 0;
   object-fit: contain;
@@ -403,7 +403,7 @@ p:last-child { margin-bottom: 0; }
   align-items: center;
   position: relative;
   overflow: hidden;
-  padding-top: 84px;
+  padding-top: 124px;
 }
 
 .hero-bg-pattern {
@@ -458,7 +458,7 @@ p:last-child { margin-bottom: 0; }
   grid-template-columns: 1fr 1fr;
   gap: 60px;
   align-items: center;
-  min-height: calc(100vh - 84px);
+  min-height: calc(100vh - 124px);
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -1186,7 +1186,7 @@ p:last-child { margin-bottom: 0; }
 }
 
 .footer-logo-img {
-  height: 65px;
+  height: 98px;
   width: auto;
   object-fit: contain;
   display: block;
