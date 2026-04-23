@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Blog FATech — Cập nhật xu hướng công nghệ, kiến thức chuyển đổi số, Cloud, AI và bảo mật thông tin.">
+  <title>Tin tức & Blog — FATech JSC</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+  <div class="container">
+    <a href="index.html" class="navbar-logo" aria-label="FATech - Trang chủ">
+      <img src="assets/images/logo.png" alt="FATech Logo" class="logo-img" onerror="this.style.display='none'">
+      <span class="logo-text-brand">FA<span>Tech</span></span>
+    </a>
+    <nav class="navbar-menu" id="navbarMenu">
+      <ul class="navbar-nav">
+        <li><a href="index.html">Trang chủ</a></li>
+        <li><a href="about.html">Giới thiệu</a></li>
+        <li><a href="services.html">Dịch vụ</a></li>
+        <li><a href="blog.html" class="active">Tin tức</a></li>
+        <li><a href="contact.html" class="btn-primary">Liên hệ</a></li>
+      </ul>
+    </nav>
+    <button class="hamburger" id="hamburger" aria-label="Mở menu" aria-expanded="false" aria-controls="navbarMenu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- PAGE HERO -->
+<section class="page-hero" aria-label="Tin tức Blog">
+  <div class="container">
+    <div class="page-hero-breadcrumb">
+      <a href="index.html">Trang chủ</a>
+      <i class="fas fa-chevron-right"></i>
+      <span>Tin tức & Blog</span>
+    </div>
+    <h1>Tin tức & Kiến thức</h1>
+    <p>Cập nhật xu hướng công nghệ, chia sẻ kiến thức chuyên sâu về chuyển đổi số, Cloud, AI và bảo mật thông tin.</p>
+  </div>
+</section>
+
+<!-- BLOG MAIN -->
+<section class="blog-main" aria-label="Danh sách bài viết">
+  <div class="container">
+    <div class="blog-layout">
+      <!-- MAIN CONTENT -->
+      <main>
+        <div class="blog-posts-grid reveal-stagger">
+          <!-- Featured post -->
+          <article class="blog-card blog-card-full">
+            <a href="blog-detail.html" class="blog-card-thumb blog-card-thumb-1">
+              <div class="blog-card-thumb-icon"><i class="fas fa-university"></i></div>
+            </a>
+            <div class="blog-card-body">
+              <span class="blog-card-tag">Digital Transformation</span>
+              <h2 class="blog-card-title" style="font-size:1.25rem;-webkit-line-clamp:3;">
+                <a href="blog-detail.html">Chuyển đổi số trong ngành ngân hàng: Cơ hội và thách thức 2024</a>
+              </h2>
+              <p class="blog-card-excerpt" style="-webkit-line-clamp:4;">Ngành ngân hàng đang trải qua cuộc cách mạng số hóa sâu rộng nhất trong lịch sử. Từ mobile banking đến open banking API, các ngân hàng Việt Nam đang chạy đua để bắt kịp xu hướng toàn cầu. Bài viết phân tích những cơ hội lớn và thách thức đặc thù của ngành tài chính trong hành trình chuyển đổi số.</p>
+              <div class="blog-card-meta">
+                <span class="blog-card-date"><i class="far fa-calendar"></i> 15/01/2024 &nbsp;•&nbsp; <i class="far fa-clock"></i> 8 phút đọc</span>
+                <a href="blog-detail.html" class="blog-card-link">Đọc thêm <i class="fas fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Post 2 -->
+          <article class="blog-card">
+            <a href="blog-detail.html" class="blog-card-thumb blog-card-thumb-2">
+              <div class="blog-card-thumb-icon"><i class="fas fa-cloud"></i></div>
+            </a>
+            <div class="blog-card-body">
+              <span class="blog-card-tag">Cloud & Infrastructure</span>
+              <h3 class="blog-card-title">
+                <a href="blog-detail.html">AWS vs Azure vs Google Cloud: Lựa chọn nền tảng phù hợp cho doanh nghiệp Việt</a>
+              </h3>
+              <p class="blog-card-excerpt">So sánh chi tiết ba nền tảng Cloud lớn nhất dưới góc độ chi phí, hiệu năng, bảo mật và hỗ trợ kỹ thuật tại Việt Nam.</p>
+              <div class="blog-card-meta">
+                <span class="blog-card-date"><i class="far fa-calendar"></i> 28/01/2024</span>
+                <a href="blog-detail.html" class="blog-card-link">Đọc thêm <i class="fas fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Post 3 -->
+          <article class="blog-card">
+            <a href="blog-detail.html" class="blog-card-thumb blog-card-thumb-3">
+              <div class="blog-card-thumb-icon"><i class="fas fa-robot"></i></div>
+            </a>
+            <div class="blog-card-body">
+              <span class="blog-card-tag">AI & Technology</span>
+              <h3 class="blog-card-title">
+                <a href="blog-detail.html">AI và Machine Learning trong tối ưu hóa chuỗi cung ứng</a>
+              </h3>
+              <p class="blog-card-excerpt">Trí tuệ nhân tạo đang định hình lại cách vận hành chuỗi cung ứng, từ dự báo nhu cầu đến tối ưu tồn kho và logistics thông minh.</p>
+              <div class="blog-card-meta">
+                <span class="blog-card-date"><i class="far fa-calendar"></i> 10/02/2024</span>
+                <a href="blog-detail.html" class="blog-card-link">Đọc thêm <i class="fas fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Post 4 -->
+          <article class="blog-card">
+            <a href="blog-detail.html" class="blog-card-thumb blog-card-thumb-4">
+              <div class="blog-card-thumb-icon"><i class="fas fa-shield-alt"></i></div>
+            </a>
+            <div class="blog-card-body">
+              <span class="blog-card-tag">Cybersecurity</span>
+              <h3 class="blog-card-title">
+                <a href="blog-detail.html">Bảo mật thông tin trong thời đại số: 10 biện pháp thiết yếu cho doanh nghiệp</a>
+              </h3>
+              <p class="blog-card-excerpt">Với làn sóng tấn công mạng ngày càng tinh vi, các doanh nghiệp cần xây dựng hệ thống bảo mật nhiều lớp. Đây là 10 biện pháp không thể bỏ qua.</p>
+              <div class="blog-card-meta">
+                <span class="blog-card-date"><i class="far fa-calendar"></i> 20/02/2024</span>
+                <a href="blog-detail.html" class="blog-card-link">Đọc thêm <i class="fas fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Post 5 -->
+          <article class="blog-card">
+            <a href="blog-detail.html" class="blog-card-thumb blog-card-thumb-5">
+              <div class="blog-card-thumb-icon"><i class="fas fa-cubes"></i></div>
+            </a>
+            <div class="blog-card-body">
+              <span class="blog-card-tag">Software Development</span>
+              <h3 class="blog-card-title">
+                <a href="blog-detail.html">Microservices Architecture: Tại sao doanh nghiệp lớn đang chuyển sang mô hình này?</a>
+              </h3>
+              <p class="blog-card-excerpt">Từ monolith sang microservices — xu hướng kiến trúc phần mềm đang thay đổi cách các tổ chức xây dựng và vận hành hệ thống IT quy mô lớn.</p>
+              <div class="blog-card-meta">
+                <span class="blog-card-date"><i class="far fa-calendar"></i> 05/03/2024</span>
+                <a href="blog-detail.html" class="blog-card-link">Đọc thêm <i class="fas fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Post 6 -->
+          <article class="blog-card">
+            <a href="blog-detail.html" class="blog-card-thumb blog-card-thumb-6">
+              <div class="blog-card-thumb-icon"><i class="fas fa-store"></i></div>
+            </a>
+            <div class="blog-card-body">
+              <span class="blog-card-tag">Case Study</span>
+              <h3 class="blog-card-title">
+                <a href="blog-detail.html">Hành trình chuyển đổi số của tập đoàn bán lẻ ABC: Case Study thực tế</a>
+              </h3>
+              <p class="blog-card-excerpt">Cách FATech giúp một tập đoàn bán lẻ hàng đầu Việt Nam số hóa toàn bộ chuỗi cung ứng và hệ thống quản lý, tăng hiệu quả vận hành 40%.</p>
+              <div class="blog-card-meta">
+                <span class="blog-card-date"><i class="far fa-calendar"></i> 18/03/2024</span>
+                <a href="blog-detail.html" class="blog-card-link">Đọc thêm <i class="fas fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- PAGINATION -->
+        <div class="pagination-wrap">
+          <nav class="pagination" aria-label="Phân trang">
+            <button class="page-btn" disabled aria-label="Trang trước"><i class="fas fa-chevron-left"></i></button>
+            <a class="page-btn active" href="#" aria-current="page">1</a>
+            <a class="page-btn" href="#">2</a>
+            <a class="page-btn" href="#">3</a>
+            <span class="page-btn" style="border:none;cursor:default;color:var(--neutral-400);">...</span>
+            <a class="page-btn" href="#">8</a>
+            <a class="page-btn" href="#" aria-label="Trang sau"><i class="fas fa-chevron-right"></i></a>
+          </nav>
+        </div>
+      </main>
+
+      <!-- SIDEBAR -->
+      <aside class="sidebar" aria-label="Sidebar">
+        <!-- Search -->
+        <div class="sidebar-widget">
+          <h3 class="sidebar-widget-title">Tìm kiếm</h3>
+          <form class="search-input-wrap" role="search">
+            <input type="search" placeholder="Tìm kiếm bài viết..." aria-label="Tìm kiếm">
+            <button type="submit" aria-label="Tìm kiếm"><i class="fas fa-search"></i></button>
+          </form>
+        </div>
+
+        <!-- Categories -->
+        <div class="sidebar-widget">
+          <h3 class="sidebar-widget-title">Chuyên mục</h3>
+          <ul class="category-list">
+            <li>
+              <a href="#">
+                Digital Transformation
+                <span>12</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Cloud & Infrastructure
+                <span>9</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                AI & Technology
+                <span>7</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Cybersecurity
+                <span>6</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Software Development
+                <span>8</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Case Study
+                <span>5</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Recent Posts -->
+        <div class="sidebar-widget">
+          <h3 class="sidebar-widget-title">Bài viết mới nhất</h3>
+          <div>
+            <div class="recent-post-item">
+              <div class="recent-post-thumb recent-post-thumb-1"></div>
+              <div class="recent-post-content">
+                <a href="blog-detail.html" class="recent-post-title">Chuyển đổi số ngành ngân hàng 2024</a>
+                <span class="recent-post-date"><i class="far fa-calendar"></i> 15/01/2024</span>
+              </div>
+            </div>
+            <div class="recent-post-item">
+              <div class="recent-post-thumb recent-post-thumb-2"></div>
+              <div class="recent-post-content">
+                <a href="blog-detail.html" class="recent-post-title">AWS vs Azure vs Google Cloud</a>
+                <span class="recent-post-date"><i class="far fa-calendar"></i> 28/01/2024</span>
+              </div>
+            </div>
+            <div class="recent-post-item">
+              <div class="recent-post-thumb recent-post-thumb-3"></div>
+              <div class="recent-post-content">
+                <a href="blog-detail.html" class="recent-post-title">AI trong tối ưu chuỗi cung ứng</a>
+                <span class="recent-post-date"><i class="far fa-calendar"></i> 10/02/2024</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tags -->
+        <div class="sidebar-widget">
+          <h3 class="sidebar-widget-title">Thẻ tag</h3>
+          <div style="display:flex;flex-wrap:wrap;gap:8px;">
+            <a href="#" style="background:var(--primary-50);color:var(--primary-700);font-family:var(--font-heading);font-size:0.75rem;font-weight:600;padding:5px 12px;border-radius:20px;border:1px solid var(--primary-100);text-decoration:none;transition:all 0.3s ease;" onmouseover="this.style.background='var(--primary-500)';this.style.color='white'" onmouseout="this.style.background='var(--primary-50)';this.style.color='var(--primary-700)'">Cloud</a>
+            <a href="#" style="background:var(--primary-50);color:var(--primary-700);font-family:var(--font-heading);font-size:0.75rem;font-weight:600;padding:5px 12px;border-radius:20px;border:1px solid var(--primary-100);text-decoration:none;transition:all 0.3s ease;" onmouseover="this.style.background='var(--primary-500)';this.style.color='white'" onmouseout="this.style.background='var(--primary-50)';this.style.color='var(--primary-700)'">AI/ML</a>
+            <a href="#" style="background:var(--primary-50);color:var(--primary-700);font-family:var(--font-heading);font-size:0.75rem;font-weight:600;padding:5px 12px;border-radius:20px;border:1px solid var(--primary-100);text-decoration:none;transition:all 0.3s ease;" onmouseover="this.style.background='var(--primary-500)';this.style.color='white'" onmouseout="this.style.background='var(--primary-50)';this.style.color='var(--primary-700)'">Security</a>
+            <a href="#" style="background:var(--primary-50);color:var(--primary-700);font-family:var(--font-heading);font-size:0.75rem;font-weight:600;padding:5px 12px;border-radius:20px;border:1px solid var(--primary-100);text-decoration:none;transition:all 0.3s ease;" onmouseover="this.style.background='var(--primary-500)';this.style.color='white'" onmouseout="this.style.background='var(--primary-50)';this.style.color='var(--primary-700)'">DevOps</a>
+            <a href="#" style="background:var(--primary-50);color:var(--primary-700);font-family:var(--font-heading);font-size:0.75rem;font-weight:600;padding:5px 12px;border-radius:20px;border:1px solid var(--primary-100);text-decoration:none;transition:all 0.3s ease;" onmouseover="this.style.background='var(--primary-500)';this.style.color='white'" onmouseout="this.style.background='var(--primary-50)';this.style.color='var(--primary-700)'">AWS</a>
+            <a href="#" style="background:var(--primary-50);color:var(--primary-700);font-family:var(--font-heading);font-size:0.75rem;font-weight:600;padding:5px 12px;border-radius:20px;border:1px solid var(--primary-100);text-decoration:none;transition:all 0.3s ease;" onmouseover="this.style.background='var(--primary-500)';this.style.color='white'" onmouseout="this.style.background='var(--primary-50)';this.style.color='var(--primary-700)'">Azure</a>
+            <a href="#" style="background:var(--primary-50);color:var(--primary-700);font-family:var(--font-heading);font-size:0.75rem;font-weight:600;padding:5px 12px;border-radius:20px;border:1px solid var(--primary-100);text-decoration:none;transition:all 0.3s ease;" onmouseover="this.style.background='var(--primary-500)';this.style.color='white'" onmouseout="this.style.background='var(--primary-50)';this.style.color='var(--primary-700)'">Microservices</a>
+            <a href="#" style="background:var(--primary-50);color:var(--primary-700);font-family:var(--font-heading);font-size:0.75rem;font-weight:600;padding:5px 12px;border-radius:20px;border:1px solid var(--primary-100);text-decoration:none;transition:all 0.3s ease;" onmouseover="this.style.background='var(--primary-500)';this.style.color='white'" onmouseout="this.style.background='var(--primary-50)';this.style.color='var(--primary-700)'">IoT</a>
+            <a href="#" style="background:var(--primary-50);color:var(--primary-700);font-family:var(--font-heading);font-size:0.75rem;font-weight:600;padding:5px 12px;border-radius:20px;border:1px solid var(--primary-100);text-decoration:none;transition:all 0.3s ease;" onmouseover="this.style.background='var(--primary-500)';this.style.color='white'" onmouseout="this.style.background='var(--primary-50)';this.style.color='var(--primary-700)'">ERP</a>
+            <a href="#" style="background:var(--primary-50);color:var(--primary-700);font-family:var(--font-heading);font-size:0.75rem;font-weight:600;padding:5px 12px;border-radius:20px;border:1px solid var(--primary-100);text-decoration:none;transition:all 0.3s ease;" onmouseover="this.style.background='var(--primary-500)';this.style.color='white'" onmouseout="this.style.background='var(--primary-50)';this.style.color='var(--primary-700)'">Fintech</a>
+          </div>
+        </div>
+
+        <!-- CTA Widget -->
+        <div class="sidebar-widget" style="background:linear-gradient(135deg,var(--primary-900),var(--primary-700));border-color:transparent;">
+          <h3 style="color:white;font-family:var(--font-heading);font-size:0.95rem;margin-bottom:12px;">Cần tư vấn kỹ thuật?</h3>
+          <p style="color:rgba(255,255,255,0.7);font-size:0.85rem;margin-bottom:16px;">Đội ngũ chuyên gia FATech sẵn sàng hỗ trợ bạn 24/7.</p>
+          <a href="contact.html" class="btn btn-accent btn-sm" style="width:100%;justify-content:center;">
+            <i class="fas fa-comments"></i> Liên hệ ngay
+          </a>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer" aria-label="Footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col footer-about">
+        <div class="footer-logo-wrap">
+          <img src="assets/images/logo.png" alt="FATech Logo" class="footer-logo-img" onerror="this.style.display='none'">
+          <span class="footer-logo-text">FA<span style="color:var(--primary-300)">Tech</span></span>
+        </div>
+        <p class="footer-about-text">FATech Joint Stock Company — Đối tác công nghệ tin cậy, kiến tạo giải pháp số toàn diện cho doanh nghiệp Việt Nam.</p>
+        <div class="social-links">
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Dịch vụ</h4>
+        <ul>
+          <li><a href="services.html">Consulting & Digital Transformation</a></li>
+          <li><a href="services.html">Infrastructure & Cloud Services</a></li>
+          <li><a href="services.html">Software Development & SI</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Công ty</h4>
+        <ul>
+          <li><a href="about.html">Giới thiệu</a></li>
+          <li><a href="blog.html">Tin tức & Blog</a></li>
+          <li><a href="contact.html">Liên hệ</a></li>
+          <li><a href="#">Tuyển dụng</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Liên hệ</h4>
+        <div class="footer-contact-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <span>Tầng 8, FATech Tower, 123 Lê Văn Lương, Hà Nội</span>
+        </div>
+        <div class="footer-contact-item">
+          <i class="fas fa-phone"></i>
+          <span>+84 (24) 3456 7890</span>
+        </div>
+        <div class="footer-contact-item">
+          <i class="fas fa-envelope"></i>
+          <span>contact@fatech.vn</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 FATech Joint Stock Company. Tất cả quyền được bảo lưu.</p>
+      <div class="footer-bottom-links">
+        <a href="#">Chính sách bảo mật</a>
+        <a href="#">Điều khoản sử dụng</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<button id="backToTop" aria-label="Về đầu trang" style="position:fixed;bottom:32px;right:32px;width:44px;height:44px;background:var(--primary-500);color:white;border:none;border-radius:50%;cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:1rem;box-shadow:var(--shadow-md);opacity:0;pointer-events:none;transition:all 0.3s ease;z-index:900;">
+  <i class="fas fa-chevron-up"></i>
+</button>
+
+<script src="js/main.js"></script>
+<script src="js/animations.js"></script>
+</body>
+</html>

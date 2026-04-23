@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="FATech Joint Stock Company — Đối tác chuyển đổi số tin cậy cho doanh nghiệp Việt Nam. Tư vấn chiến lược, hạ tầng Cloud, phát triển phần mềm.">
+  <title>FATech JSC — Kiến tạo tương lai số</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+  <div class="container">
+    <a href="index.html" class="navbar-logo" aria-label="FATech - Trang chủ">
+      <img src="assets/images/logo.png" alt="FATech Logo" class="logo-img" onerror="this.style.display='none'">
+      <span class="logo-text-brand">FA<span>Tech</span></span>
+    </a>
+    <nav class="navbar-menu" id="navbarMenu">
+      <ul class="navbar-nav">
+        <li><a href="index.html" class="active">Trang chủ</a></li>
+        <li><a href="about.html">Giới thiệu</a></li>
+        <li><a href="services.html">Dịch vụ</a></li>
+        <li><a href="blog.html">Tin tức</a></li>
+        <li><a href="contact.html" class="btn-primary">Liên hệ</a></li>
+      </ul>
+    </nav>
+    <button class="hamburger" id="hamburger" aria-label="Mở menu" aria-expanded="false" aria-controls="navbarMenu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" aria-label="Hero section">
+  <div class="hero-bg-pattern">
+    <div class="hero-grid-pattern"></div>
+    <div class="hero-orb hero-orb-1"></div>
+    <div class="hero-orb hero-orb-2"></div>
+    <div class="hero-orb hero-orb-3"></div>
+  </div>
+  <div class="container">
+    <div class="hero-content">
+      <div class="hero-tag">
+        <i class="fas fa-bolt"></i>
+        Đối tác chuyển đổi số hàng đầu Việt Nam
+      </div>
+      <h1 class="hero-title">
+        Kiến tạo <span class="highlight">tương lai số</span><br>
+        — cùng FATech
+      </h1>
+      <p class="hero-subtitle">
+        Chúng tôi đồng hành cùng doanh nghiệp trong hành trình chuyển đổi số toàn diện — từ tư vấn chiến lược, xây dựng hạ tầng Cloud, đến phát triển phần mềm tích hợp.
+      </p>
+      <div class="hero-actions">
+        <a href="services.html" class="btn btn-accent">
+          <i class="fas fa-rocket"></i> Khám phá dịch vụ
+        </a>
+        <a href="contact.html" class="btn btn-outline">
+          <i class="fas fa-comments"></i> Liên hệ tư vấn
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <span class="hero-stat-num">10+</span>
+          <span class="hero-stat-label">Năm kinh nghiệm</span>
+        </div>
+        <div class="hero-stat">
+          <span class="hero-stat-num">500+</span>
+          <span class="hero-stat-label">Dự án thành công</span>
+        </div>
+        <div class="hero-stat">
+          <span class="hero-stat-num">200+</span>
+          <span class="hero-stat-label">Khách hàng tin dùng</span>
+        </div>
+        <div class="hero-stat">
+          <span class="hero-stat-num">300+</span>
+          <span class="hero-stat-label">Chuyên gia</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-visual" aria-hidden="true">
+      <div class="hero-card-stack">
+        <div class="hero-card hero-card-1">
+          <div class="hero-card-icon"><i class="fas fa-cloud"></i></div>
+          <h4>Cloud Migration</h4>
+          <p>AWS & Azure certified</p>
+        </div>
+        <div class="hero-card hero-card-main">
+          <div class="hero-card-icon"><i class="fas fa-chart-line"></i></div>
+          <h4>Digital Transformation</h4>
+          <p>Chiến lược số hóa toàn diện cho doanh nghiệp</p>
+          <div class="hero-card-badge">
+            <i class="fas fa-check-circle"></i> 500+ Dự án
+          </div>
+        </div>
+        <div class="hero-card hero-card-2">
+          <div class="hero-card-icon"><i class="fas fa-code"></i></div>
+          <h4>Software Dev</h4>
+          <p>Custom ERP & APIs</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT BRIEF -->
+<section class="about-brief section" aria-label="Giới thiệu FATech">
+  <div class="container">
+    <div class="about-brief-visual reveal-left">
+      <div class="about-visual-img">
+        <i class="fas fa-building about-visual-icon"></i>
+      </div>
+      <div class="about-visual-badge">
+        <div class="badge-icon"><i class="fas fa-award"></i></div>
+        <div>
+          <div class="badge-num">Top 10</div>
+          <div class="badge-label">IT Company VN 2023</div>
+        </div>
+      </div>
+    </div>
+    <div class="about-brief-content reveal-right">
+      <span class="section-tag">Về chúng tôi</span>
+      <h2>Đối tác công nghệ đáng tin cậy cho doanh nghiệp Việt</h2>
+      <p>FATech Joint Stock Company là công ty dịch vụ công nghệ thông tin hàng đầu Việt Nam, chuyên cung cấp giải pháp chuyển đổi số toàn diện. Với hơn 10 năm kinh nghiệm, chúng tôi đã triển khai thành công hàng trăm dự án cho các tập đoàn và doanh nghiệp lớn.</p>
+      <p>Đội ngũ hơn 300 chuyên gia của FATech sở hữu các chứng chỉ quốc tế uy tín từ AWS, Microsoft, Google Cloud và nhiều đối tác công nghệ toàn cầu.</p>
+      <div class="about-features">
+        <div class="about-feature">
+          <div class="about-feature-icon"><i class="fas fa-medal"></i></div>
+          <div class="about-feature-text">
+            <strong>Chứng nhận quốc tế</strong>
+            <span>AWS Advanced Partner, Microsoft Gold Partner, Google Cloud Partner</span>
+          </div>
+        </div>
+        <div class="about-feature">
+          <div class="about-feature-icon"><i class="fas fa-users-cog"></i></div>
+          <div class="about-feature-text">
+            <strong>Đội ngũ chuyên gia</strong>
+            <span>300+ chuyên gia với kinh nghiệm triển khai dự án phức tạp</span>
+          </div>
+        </div>
+        <div class="about-feature">
+          <div class="about-feature-icon"><i class="fas fa-clock"></i></div>
+          <div class="about-feature-text">
+            <strong>Hỗ trợ 24/7</strong>
+            <span>Cam kết SLA, đội ngũ hỗ trợ kỹ thuật sẵn sàng mọi lúc</span>
+          </div>
+        </div>
+      </div>
+      <a href="about.html" class="btn btn-primary">
+        Tìm hiểu thêm <i class="fas fa-arrow-right"></i>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services-section section" aria-label="Dịch vụ của FATech">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-tag">Dịch vụ</span>
+      <h2 class="section-title">Giải pháp công nghệ toàn diện</h2>
+      <p class="section-subtitle">Ba trụ cột dịch vụ cốt lõi giúp doanh nghiệp chuyển đổi và tăng trưởng bền vững trong thời đại số</p>
+    </div>
+    <div class="services-grid reveal-stagger">
+      <article class="service-card">
+        <span class="service-card-number">01</span>
+        <div class="service-card-icon"><i class="fas fa-lightbulb"></i></div>
+        <h3>Consulting & Digital Transformation</h3>
+        <p>Tư vấn chiến lược số hóa, đánh giá mức độ trưởng thành và xây dựng lộ trình chuyển đổi phù hợp với đặc thù từng doanh nghiệp.</p>
+        <a href="services.html#consulting" class="service-card-link">
+          Xem chi tiết <i class="fas fa-arrow-right"></i>
+        </a>
+      </article>
+      <article class="service-card">
+        <span class="service-card-number">02</span>
+        <div class="service-card-icon"><i class="fas fa-cloud"></i></div>
+        <h3>Infrastructure & Cloud Services</h3>
+        <p>Thiết kế, triển khai và quản lý hạ tầng IT hiện đại. Dịch vụ Cloud Migration lên AWS, Azure, Google Cloud và Managed Services 24/7.</p>
+        <a href="services.html#cloud" class="service-card-link">
+          Xem chi tiết <i class="fas fa-arrow-right"></i>
+        </a>
+      </article>
+      <article class="service-card">
+        <span class="service-card-number">03</span>
+        <div class="service-card-icon"><i class="fas fa-code-branch"></i></div>
+        <h3>Software Development & System Integration</h3>
+        <p>Phát triển phần mềm theo yêu cầu, tích hợp hệ thống doanh nghiệp (ERP, CRM), xây dựng API và hiện đại hóa ứng dụng legacy.</p>
+        <a href="services.html#software" class="service-card-link">
+          Xem chi tiết <i class="fas fa-arrow-right"></i>
+        </a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- CLIENTS -->
+<section class="clients-section" aria-label="Khách hàng tiêu biểu">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-tag">Khách hàng tiêu biểu</span>
+      <h2 class="section-title">Được tin dùng bởi hàng trăm doanh nghiệp</h2>
+    </div>
+    <div class="clients-grid reveal-stagger">
+      <div class="client-logo"><span>VietinBank</span></div>
+      <div class="client-logo"><span>Vietcombank</span></div>
+      <div class="client-logo"><span>Vietnam Airlines</span></div>
+      <div class="client-logo"><span>Vingroup</span></div>
+      <div class="client-logo"><span>Masan Group</span></div>
+      <div class="client-logo"><span>FPT Corporation</span></div>
+      <div class="client-logo"><span>CMC Group</span></div>
+      <div class="client-logo"><span>EVN</span></div>
+      <div class="client-logo"><span>BIDV</span></div>
+      <div class="client-logo"><span>PetroVietnam</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY FATECH -->
+<section class="why-section section" aria-label="Vì sao chọn FATech">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-tag">Tại sao chọn chúng tôi</span>
+      <h2 class="section-title">Vì sao doanh nghiệp tin tưởng FATech?</h2>
+      <p class="section-subtitle">Chúng tôi không chỉ cung cấp giải pháp — chúng tôi đồng hành cùng sự thành công của bạn</p>
+    </div>
+    <div class="why-grid reveal-stagger">
+      <div class="why-card">
+        <div class="why-card-icon"><i class="fas fa-users"></i></div>
+        <h3>Đội ngũ chuyên gia hàng đầu</h3>
+        <p>300+ chuyên gia với chứng chỉ quốc tế, kinh nghiệm triển khai các dự án phức tạp cho tập đoàn lớn.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-card-icon"><i class="fas fa-trophy"></i></div>
+        <h3>Kinh nghiệm thực chiến</h3>
+        <p>Hơn 500 dự án thành công trong 10 năm, từ startup đến tập đoàn đa quốc gia tại Việt Nam.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-card-icon"><i class="fas fa-microchip"></i></div>
+        <h3>Công nghệ tiên tiến</h3>
+        <p>Ứng dụng các công nghệ mới nhất: AI/ML, Cloud Native, DevOps, IoT, Blockchain vào từng giải pháp.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-card-icon"><i class="fas fa-handshake"></i></div>
+        <h3>Cam kết đồng hành</h3>
+        <p>Hỗ trợ kỹ thuật 24/7, đảm bảo SLA nghiêm ngặt và tư vấn liên tục sau triển khai.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LATEST BLOG -->
+<section class="latest-blog-section section" aria-label="Tin tức mới nhất">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-tag">Tin tức & Kiến thức</span>
+      <h2 class="section-title">Cập nhật xu hướng công nghệ</h2>
+      <p class="section-subtitle">Chia sẻ kiến thức chuyên sâu về chuyển đổi số, Cloud, AI và bảo mật thông tin</p>
+    </div>
+    <div class="blog-grid-home reveal-stagger">
+      <article class="blog-card">
+        <a href="blog-detail.html" class="blog-card-thumb blog-card-thumb-1">
+          <div class="blog-card-thumb-icon"><i class="fas fa-university"></i></div>
+        </a>
+        <div class="blog-card-body">
+          <span class="blog-card-tag">Digital Transformation</span>
+          <h3 class="blog-card-title">
+            <a href="blog-detail.html">Chuyển đổi số trong ngành ngân hàng: Cơ hội và thách thức 2024</a>
+          </h3>
+          <p class="blog-card-excerpt">Ngành ngân hàng đang trải qua cuộc cách mạng số hóa sâu rộng nhất trong lịch sử. Từ mobile banking đến open banking API, các ngân hàng Việt Nam đang chạy đua để bắt kịp xu hướng toàn cầu.</p>
+          <div class="blog-card-meta">
+            <span class="blog-card-date"><i class="far fa-calendar"></i> 15/01/2024</span>
+            <a href="blog-detail.html" class="blog-card-link">Đọc thêm <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </article>
+      <article class="blog-card">
+        <a href="blog-detail.html" class="blog-card-thumb blog-card-thumb-2">
+          <div class="blog-card-thumb-icon"><i class="fas fa-cloud"></i></div>
+        </a>
+        <div class="blog-card-body">
+          <span class="blog-card-tag">Cloud & Infrastructure</span>
+          <h3 class="blog-card-title">
+            <a href="blog-detail.html">AWS vs Azure vs Google Cloud: Lựa chọn nền tảng Cloud phù hợp</a>
+          </h3>
+          <p class="blog-card-excerpt">So sánh chi tiết ba nền tảng Cloud lớn nhất thế giới dưới góc độ chi phí, hiệu năng, bảo mật và hỗ trợ kỹ thuật — giúp doanh nghiệp đưa ra quyết định đúng đắn.</p>
+          <div class="blog-card-meta">
+            <span class="blog-card-date"><i class="far fa-calendar"></i> 28/01/2024</span>
+            <a href="blog-detail.html" class="blog-card-link">Đọc thêm <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </article>
+      <article class="blog-card">
+        <a href="blog-detail.html" class="blog-card-thumb blog-card-thumb-3">
+          <div class="blog-card-thumb-icon"><i class="fas fa-robot"></i></div>
+        </a>
+        <div class="blog-card-body">
+          <span class="blog-card-tag">AI & Technology</span>
+          <h3 class="blog-card-title">
+            <a href="blog-detail.html">AI và Machine Learning trong tối ưu hóa chuỗi cung ứng</a>
+          </h3>
+          <p class="blog-card-excerpt">Trí tuệ nhân tạo đang định hình lại cách vận hành chuỗi cung ứng. Phân tích dự báo nhu cầu, tối ưu tồn kho và logistics thông minh — những ứng dụng AI đang tạo ra lợi thế cạnh tranh.</p>
+          <div class="blog-card-meta">
+            <span class="blog-card-date"><i class="far fa-calendar"></i> 10/02/2024</span>
+            <a href="blog-detail.html" class="blog-card-link">Đọc thêm <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </article>
+    </div>
+    <div class="text-center mt-8 reveal">
+      <a href="blog.html" class="btn btn-outline-primary">
+        Xem tất cả bài viết <i class="fas fa-arrow-right"></i>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- CTA BANNER -->
+<section class="cta-banner" aria-label="Call to action">
+  <div class="container">
+    <div class="cta-banner-content reveal-left">
+      <h2>Sẵn sàng số hóa doanh nghiệp của bạn?</h2>
+      <p>Hãy để đội ngũ chuyên gia FATech tư vấn lộ trình chuyển đổi số phù hợp với doanh nghiệp của bạn. Miễn phí, không ràng buộc.</p>
+    </div>
+    <div class="cta-banner-actions reveal-right">
+      <a href="contact.html" class="btn btn-accent">
+        <i class="fas fa-calendar-check"></i> Đặt lịch tư vấn
+      </a>
+      <a href="tel:+842434567890" class="btn btn-outline">
+        <i class="fas fa-phone"></i> Gọi ngay
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer" aria-label="Footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col footer-about">
+        <div class="footer-logo-wrap">
+          <img src="assets/images/logo.png" alt="FATech Logo" class="footer-logo-img" onerror="this.style.display='none'">
+          <span class="footer-logo-text">FA<span style="color:var(--primary-300)">Tech</span></span>
+        </div>
+        <p class="footer-about-text">FATech Joint Stock Company — Đối tác công nghệ tin cậy, kiến tạo giải pháp số toàn diện cho doanh nghiệp Việt Nam và khu vực Đông Nam Á.</p>
+        <div class="social-links">
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Dịch vụ</h4>
+        <ul>
+          <li><a href="services.html">Consulting & Digital Transformation</a></li>
+          <li><a href="services.html">Infrastructure & Cloud Services</a></li>
+          <li><a href="services.html">Software Development & SI</a></li>
+          <li><a href="services.html">Cybersecurity</a></li>
+          <li><a href="services.html">Managed Services</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Công ty</h4>
+        <ul>
+          <li><a href="about.html">Giới thiệu</a></li>
+          <li><a href="about.html#team">Đội ngũ lãnh đạo</a></li>
+          <li><a href="blog.html">Tin tức & Blog</a></li>
+          <li><a href="contact.html">Liên hệ</a></li>
+          <li><a href="#">Tuyển dụng</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Liên hệ</h4>
+        <div class="footer-contact-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <span>Tầng 8, Tòa nhà FATech Tower, 123 Lê Văn Lương, Quận Thanh Xuân, Hà Nội</span>
+        </div>
+        <div class="footer-contact-item">
+          <i class="fas fa-phone"></i>
+          <span>+84 (24) 3456 7890</span>
+        </div>
+        <div class="footer-contact-item">
+          <i class="fas fa-envelope"></i>
+          <span>contact@fatech.vn</span>
+        </div>
+        <div class="footer-contact-item">
+          <i class="fas fa-globe"></i>
+          <span>www.fatech.vn</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 FATech Joint Stock Company. Tất cả quyền được bảo lưu.</p>
+      <div class="footer-bottom-links">
+        <a href="#">Chính sách bảo mật</a>
+        <a href="#">Điều khoản sử dụng</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Back to top -->
+<button id="backToTop" aria-label="Về đầu trang" style="position:fixed;bottom:32px;right:32px;width:44px;height:44px;background:var(--primary-500);color:white;border:none;border-radius:50%;cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:1rem;box-shadow:var(--shadow-md);opacity:0;pointer-events:none;transition:all 0.3s ease;z-index:900;">
+  <i class="fas fa-chevron-up"></i>
+</button>
+
+<script src="js/main.js"></script>
+<script src="js/animations.js"></script>
+</body>
+</html>

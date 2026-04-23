@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Liên hệ với FATech JSC — Tư vấn giải pháp công nghệ, chuyển đổi số và phát triển phần mềm.">
+  <title>Liên hệ — FATech JSC</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+  <div class="container">
+    <a href="index.html" class="navbar-logo" aria-label="FATech - Trang chủ">
+      <img src="assets/images/logo.png" alt="FATech Logo" class="logo-img" onerror="this.style.display='none'">
+      <span class="logo-text-brand">FA<span>Tech</span></span>
+    </a>
+    <nav class="navbar-menu" id="navbarMenu">
+      <ul class="navbar-nav">
+        <li><a href="index.html">Trang chủ</a></li>
+        <li><a href="about.html">Giới thiệu</a></li>
+        <li><a href="services.html">Dịch vụ</a></li>
+        <li><a href="blog.html">Tin tức</a></li>
+        <li><a href="contact.html" class="active btn-primary">Liên hệ</a></li>
+      </ul>
+    </nav>
+    <button class="hamburger" id="hamburger" aria-label="Mở menu" aria-expanded="false" aria-controls="navbarMenu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- PAGE HERO -->
+<section class="page-hero" aria-label="Liên hệ">
+  <div class="container">
+    <div class="page-hero-breadcrumb">
+      <a href="index.html">Trang chủ</a>
+      <i class="fas fa-chevron-right"></i>
+      <span>Liên hệ</span>
+    </div>
+    <h1>Liên hệ với chúng tôi</h1>
+    <p>Chúng tôi luôn sẵn sàng lắng nghe và hỗ trợ bạn. Hãy để lại thông tin và đội ngũ tư vấn sẽ phản hồi trong vòng 24 giờ.</p>
+  </div>
+</section>
+
+<!-- CONTACT INFO STRIP -->
+<div style="background:var(--primary-800);padding:24px 0;border-bottom:1px solid rgba(255,255,255,0.08);">
+  <div class="container">
+    <div style="display:flex;align-items:center;justify-content:center;gap:48px;flex-wrap:wrap;">
+      <div style="display:flex;align-items:center;gap:12px;color:rgba(255,255,255,0.85);">
+        <div style="width:40px;height:40px;background:rgba(107,158,141,0.2);border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--primary-300);font-size:1rem;">
+          <i class="fas fa-phone"></i>
+        </div>
+        <div>
+          <div style="font-size:0.75rem;color:rgba(255,255,255,0.5);font-family:var(--font-heading);text-transform:uppercase;letter-spacing:0.05em;">Hotline</div>
+          <div style="font-family:var(--font-heading);font-weight:600;font-size:0.95rem;">+84 (24) 3456 7890</div>
+        </div>
+      </div>
+      <div style="display:flex;align-items:center;gap:12px;color:rgba(255,255,255,0.85);">
+        <div style="width:40px;height:40px;background:rgba(107,158,141,0.2);border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--primary-300);font-size:1rem;">
+          <i class="fas fa-envelope"></i>
+        </div>
+        <div>
+          <div style="font-size:0.75rem;color:rgba(255,255,255,0.5);font-family:var(--font-heading);text-transform:uppercase;letter-spacing:0.05em;">Email</div>
+          <div style="font-family:var(--font-heading);font-weight:600;font-size:0.95rem;">contact@fatech.vn</div>
+        </div>
+      </div>
+      <div style="display:flex;align-items:center;gap:12px;color:rgba(255,255,255,0.85);">
+        <div style="width:40px;height:40px;background:rgba(107,158,141,0.2);border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--primary-300);font-size:1rem;">
+          <i class="fas fa-clock"></i>
+        </div>
+        <div>
+          <div style="font-size:0.75rem;color:rgba(255,255,255,0.5);font-family:var(--font-heading);text-transform:uppercase;letter-spacing:0.05em;">Giờ làm việc</div>
+          <div style="font-family:var(--font-heading);font-weight:600;font-size:0.95rem;">T2–T6: 8:00–17:30</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- CONTACT SECTION -->
+<section class="contact-section" aria-label="Form liên hệ và thông tin">
+  <div class="container">
+    <div class="contact-layout">
+      <!-- CONTACT FORM -->
+      <div class="contact-form-wrap reveal-left">
+        <h3>Gửi yêu cầu tư vấn</h3>
+        <p>Điền thông tin bên dưới, đội ngũ tư vấn của chúng tôi sẽ liên hệ lại trong vòng 24 giờ làm việc.</p>
+        <form id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fullName">Họ và tên <span>*</span></label>
+              <input type="text" id="fullName" name="fullName" class="form-control" placeholder="Nguyễn Văn A" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email <span>*</span></label>
+              <input type="email" id="email" name="email" class="form-control" placeholder="email@congty.vn" required>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="phone">Số điện thoại <span>*</span></label>
+              <input type="tel" id="phone" name="phone" class="form-control" placeholder="0912 345 678" required>
+            </div>
+            <div class="form-group">
+              <label for="company">Tên công ty</label>
+              <input type="text" id="company" name="company" class="form-control" placeholder="Tên doanh nghiệp của bạn">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="service">Dịch vụ quan tâm</label>
+            <select id="service" name="service" class="form-control">
+              <option value="" disabled selected>-- Chọn dịch vụ --</option>
+              <option value="consulting">Consulting & Digital Transformation</option>
+              <option value="cloud">Infrastructure & Cloud Services</option>
+              <option value="software">Software Development & SI</option>
+              <option value="cybersecurity">Cybersecurity</option>
+              <option value="managed">Managed Services</option>
+              <option value="other">Khác</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Nội dung <span>*</span></label>
+            <textarea id="message" name="message" class="form-control" rows="5" placeholder="Mô tả ngắn về nhu cầu hoặc thách thức của doanh nghiệp bạn..." required></textarea>
+          </div>
+          <div class="form-group" style="display:flex;align-items:flex-start;gap:10px;margin-bottom:24px;">
+            <input type="checkbox" id="agree" name="agree" style="margin-top:3px;accent-color:var(--primary-500);width:16px;height:16px;flex-shrink:0;cursor:pointer;" required>
+            <label for="agree" style="font-size:0.85rem;color:var(--neutral-600);cursor:pointer;font-family:var(--font-body);font-weight:400;">Tôi đồng ý với <a href="#" style="color:var(--primary-500);">chính sách bảo mật thông tin</a> của FATech và cho phép liên hệ tư vấn.</label>
+          </div>
+          <div class="form-submit">
+            <button type="submit" class="btn btn-accent">
+              <i class="fas fa-paper-plane"></i> Gửi yêu cầu
+            </button>
+          </div>
+        </form>
+      </div>
+
+      <!-- CONTACT INFO -->
+      <div class="contact-info-wrap reveal-right">
+        <!-- Company Info -->
+        <div class="contact-info-card">
+          <h4><i class="fas fa-building" style="color:var(--primary-500);margin-right:8px;"></i> Thông tin liên hệ</h4>
+          <div class="contact-detail-item">
+            <div class="contact-detail-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div class="contact-detail-text">
+              <strong>Trụ sở chính (Hà Nội)</strong>
+              <span>Tầng 8, FATech Tower, 123 Lê Văn Lương, Phường Nhân Chính, Quận Thanh Xuân, Hà Nội</span>
+            </div>
+          </div>
+          <div class="contact-detail-item">
+            <div class="contact-detail-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div class="contact-detail-text">
+              <strong>Văn phòng TP.HCM</strong>
+              <span>Tầng 12, Tòa nhà Bitexco Financial Tower, 2 Hải Triều, Quận 1, TP.HCM</span>
+            </div>
+          </div>
+          <div class="contact-detail-item">
+            <div class="contact-detail-icon"><i class="fas fa-phone-alt"></i></div>
+            <div class="contact-detail-text">
+              <strong>Điện thoại</strong>
+              <span>+84 (24) 3456 7890 (Hà Nội)<br>+84 (28) 6789 0123 (TP.HCM)</span>
+            </div>
+          </div>
+          <div class="contact-detail-item">
+            <div class="contact-detail-icon"><i class="fas fa-envelope"></i></div>
+            <div class="contact-detail-text">
+              <strong>Email</strong>
+              <span>contact@fatech.vn<br>sales@fatech.vn</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Map -->
+        <div class="contact-info-card">
+          <h4><i class="fas fa-map" style="color:var(--primary-500);margin-right:8px;"></i> Bản đồ</h4>
+          <div class="map-placeholder">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.696!2d105.8131!3d21.0027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjHCsDAwJzA5LjciTiAxMDXCsDQ4JzQ3LjIiRQ!5e0!3m2!1svi!2svn!4v1234567890"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Bản đồ vị trí FATech"
+              style="width:100%;height:220px;border:none;border-radius:var(--radius-sm);"
+            ></iframe>
+          </div>
+        </div>
+
+        <!-- Working Hours -->
+        <div class="contact-info-card">
+          <h4><i class="fas fa-clock" style="color:var(--primary-500);margin-right:8px;"></i> Giờ làm việc</h4>
+          <div class="working-hours-list">
+            <div class="wh-item">
+              <span class="wh-day">Thứ Hai — Thứ Sáu</span>
+              <span class="wh-time">08:00 — 17:30</span>
+            </div>
+            <div class="wh-item">
+              <span class="wh-day">Thứ Bảy</span>
+              <span class="wh-time">08:00 — 12:00</span>
+            </div>
+            <div class="wh-item">
+              <span class="wh-day">Chủ Nhật</span>
+              <span class="wh-time wh-closed">Nghỉ</span>
+            </div>
+            <div class="wh-item" style="border:none;background:var(--primary-50);padding:10px 12px;border-radius:var(--radius-sm);">
+              <span class="wh-day" style="color:var(--primary-700);display:flex;align-items:center;gap:6px;"><i class="fas fa-headset"></i> Hỗ trợ kỹ thuật</span>
+              <span class="wh-time" style="color:var(--primary-500);font-weight:600;">24/7</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer" aria-label="Footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col footer-about">
+        <div class="footer-logo-wrap">
+          <img src="assets/images/logo.png" alt="FATech Logo" class="footer-logo-img" onerror="this.style.display='none'">
+          <span class="footer-logo-text">FA<span style="color:var(--primary-300)">Tech</span></span>
+        </div>
+        <p class="footer-about-text">FATech Joint Stock Company — Đối tác công nghệ tin cậy, kiến tạo giải pháp số toàn diện cho doanh nghiệp Việt Nam.</p>
+        <div class="social-links">
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Dịch vụ</h4>
+        <ul>
+          <li><a href="services.html">Consulting & Digital Transformation</a></li>
+          <li><a href="services.html">Infrastructure & Cloud Services</a></li>
+          <li><a href="services.html">Software Development & SI</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Công ty</h4>
+        <ul>
+          <li><a href="about.html">Giới thiệu</a></li>
+          <li><a href="blog.html">Tin tức & Blog</a></li>
+          <li><a href="contact.html">Liên hệ</a></li>
+          <li><a href="#">Tuyển dụng</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Liên hệ</h4>
+        <div class="footer-contact-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <span>Tầng 8, FATech Tower, 123 Lê Văn Lương, Hà Nội</span>
+        </div>
+        <div class="footer-contact-item">
+          <i class="fas fa-phone"></i>
+          <span>+84 (24) 3456 7890</span>
+        </div>
+        <div class="footer-contact-item">
+          <i class="fas fa-envelope"></i>
+          <span>contact@fatech.vn</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 FATech Joint Stock Company. Tất cả quyền được bảo lưu.</p>
+      <div class="footer-bottom-links">
+        <a href="#">Chính sách bảo mật</a>
+        <a href="#">Điều khoản sử dụng</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<button id="backToTop" aria-label="Về đầu trang" style="position:fixed;bottom:32px;right:32px;width:44px;height:44px;background:var(--primary-500);color:white;border:none;border-radius:50%;cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:1rem;box-shadow:var(--shadow-md);opacity:0;pointer-events:none;transition:all 0.3s ease;z-index:900;">
+  <i class="fas fa-chevron-up"></i>
+</button>
+
+<script src="js/main.js"></script>
+<script src="js/animations.js"></script>
+</body>
+</html>
